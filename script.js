@@ -1,10 +1,10 @@
-// Function to toggle the left menu
+
 function toggleMenu() {
     const leftMenu = document.getElementById('leftMenu');
     leftMenu.classList.toggle('collapsed');
 }
 
-// Function to handle page scaling based on screen width
+
 function handlePageScaling() {
     const width = window.innerWidth;
     const html = document.documentElement;
@@ -22,7 +22,6 @@ function handlePageScaling() {
     }
 }
 
-// Theme toggle functionality
 let currentTheme = 'light';
 function toggleTheme() {
     const body = document.body;
@@ -30,7 +29,6 @@ function toggleTheme() {
     body.classList.toggle('dark-theme');
 }
 
-// Modal functionality
 function openModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.style.display = "block";
@@ -41,7 +39,7 @@ function closeModal(modalId) {
     modal.style.display = "none";
 }
 
-// Event Listeners
+
 window.addEventListener('load', handlePageScaling);
 window.addEventListener('resize', handlePageScaling);
 
@@ -60,7 +58,7 @@ document.getElementById('quotesBtn').addEventListener('click', (e) => {
     openModal('quotesModal');
 });
 
-// Close modals when clicking the close button
+
 document.querySelectorAll('.close').forEach(closeBtn => {
     closeBtn.addEventListener('click', () => {
         const modal = closeBtn.closest('.modal');
@@ -68,7 +66,7 @@ document.querySelectorAll('.close').forEach(closeBtn => {
     });
 });
 
-// Close modals when clicking outside
+
 window.addEventListener('click', (e) => {
     if (e.target.classList.contains('modal')) {
         closeModal(e.target.id);
