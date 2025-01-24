@@ -26,7 +26,7 @@ body.dark-theme {
     color: var(--light-text);
 }
 
-/* Navbar Styles - Saffron */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -88,7 +88,7 @@ body.dark-theme {
     100% { transform: scale(1); }
 }
 
-/* Container Styles - White */
+
 .container {
     display: flex;
     margin-top: 60px;
@@ -96,7 +96,7 @@ body.dark-theme {
     background-color: var(--white);
 }
 
-/* Left Menu Styles - White */
+
 .left-menu {
     width: 250px;
     background-color: var(--white);
@@ -152,7 +152,7 @@ body.dark-theme {
     background-color: rgba(0, 0, 128, 0.1);
 }
 
-/* Main Content Styles */
+
 .main-content {
     flex: 1;
     padding: 2rem;
@@ -193,7 +193,7 @@ body.dark-theme {
     background-color: var(--navy-blue);
 }
 
-/* Quotes Container Styles */
+
 .quotes-container {
     position: relative;
     height: 300px;
@@ -219,7 +219,7 @@ body.dark-theme {
     background-color: #f0f0f0;
 }
 
-/* Custom scrollbar for quotes */
+
 .quotes-container::-webkit-scrollbar {
     width: 8px;
 }
@@ -238,7 +238,7 @@ body.dark-theme {
     background: var(--saffron);
 }
 
-/* Modal Styles */
+
 .modal {
     display: none;
     position: fixed;
@@ -294,7 +294,7 @@ body.dark-theme {
     cursor: not-allowed;
 }
 
-/* Right Panel Styles */
+
 .right-panel {
     width: 300px;
     background-color: #f4f4f4;
@@ -316,7 +316,7 @@ body.dark-theme {
     border-left: 4px solid var(--green);
 }
 
-/* Footer Styles - Green */
+
 .footer {
     background-color: var(--green);
     color: white;
@@ -327,7 +327,7 @@ body.dark-theme {
     width: 100%;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 1200px) {
     .right-panel {
         width: 250px;
